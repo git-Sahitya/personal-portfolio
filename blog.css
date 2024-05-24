@@ -1,0 +1,24 @@
+
+.blogItem{
+    margin: 20px;
+    font-family: "Fire Sans", sans-serif;
+}
+.blogcontainer{
+    margin:  88px;
+}
+
+
+.btn-sm1{
+     font-size: 12px;
+     background-color:rgb(20, 122, 190);
+}
+h1{
+    font-family: "Fire Sans", sans-serif;
+    margin: 23px;
+
+}
+
+ p{
+    font-family: "Source Code Pro", monospace;
+
+}

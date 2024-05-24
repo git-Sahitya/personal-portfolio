@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    position: absolute;
+   background-color: rgb(223 ,218,218);
+     font-family: "Fire Sans", sans-serif;
+     height: 100vh;
+     transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 22px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.sidebar nav li a{
+ text-decoration: none;
+ color: black;
+}
+
+.main{
+    width: 90vw; 
+}
+
+.container{
+    display: flex;
+}
+.infocontainer{ 
+     height: 58vh;
+    width: 80vw;
+    margin:  100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: "Source Code Pro", monospace;
+}
+.hello{
+    font-size: 3em;
+    
+   
+}
+
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "Fire Sans", sans-serif;
+}
+
+.about{
+    font-size:2.5em;
+}
+.moreabout{
+    font-size: 2em;
+    margin-top: 18px;
+    font-family: "Fire Sans", sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+    
+}
+.btn{
+ 
+    padding: 9px 14px;
+    border-radius: 28px;
+    color: #fff;
+    background-color: rgba(30, 143, 255, 0.707);
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fff;
+    color: dodgerblue;
+
+}
+.devPic img{
+   height:58vh;
+   margin-right: 4px;
+    
+}
+
+.sidebarGo{
+    transform: translate(-443px , 0px);
+    position: absolute; 
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+    left: 10px;
+    margin-top: 10px;
+    
+}
+.cross{
+     margin-left: 110px;
+    
+}
+.ham{
+    margin-left: 4px;
+    
+}
+
+ @media (max-width: 1440px) {
+
+.devInfo{
+    font-size: 10px;
+}
+
+.devPic{
+    display: none;
+}
+
+.intro ,.blogcontainer,.contactform{
+    margin: 50px 8px;
+  }
+
+}
+
+footer{
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+
+   
+}
+
+.fa-copyright{
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+
+
