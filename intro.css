@@ -5,11 +5,13 @@
 
 }
 .intro{
-    margin:  30px;
+    margin:  25px;
 }
 .intro h2{
     font-family: "Fire Sans", sans-serif;
     margin: 12px;
+    margin-left: 2.5rem;
+    margin-top: 3rem;
 }
 
 .intro p{
